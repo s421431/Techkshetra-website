@@ -1,0 +1,23 @@
+/* Custom styles for FullCalendar toolbar */
+.fc-toolbar.fc-header-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .fc-toolbar.fc-header-toolbar .fc-toolbar-chunk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Add space between rows */
+  }
+  
+  .fc-toolbar.fc-header-toolbar .fc-button {
+    margin: 5px; /* Add space between buttons */
+  }
+  
+  @media (max-width: 600px) {
+    .fc-toolbar.fc-header-toolbar .fc-toolbar-chunk {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
